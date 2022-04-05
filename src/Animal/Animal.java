@@ -1,9 +1,12 @@
 package Animal;
 
-    }
-public abstract class Animal {
-  public abstract void Makesound();
+public class Animal {
+  private String name;
+  private String breed;
+  private double weight;
 
-  public abstract String foodType;
-  public abstract boolean food(String foodType);
+  Animal(){
+    System.out.println("construction cat:+ name");
+  }
+  public void setName''
 }
