@@ -1,12 +1,14 @@
 package Animal;
 
 public class Cat extends Animal {
-  @Override
-  public void Makesound(){
-    System.out.println ("miav);
+ // private String name;//
+private String catnip;
+private String typeofCatFood;
 
 
-  }
+Cat(String name){
+
+ System.out.println("construction cat : +name");
 }
 
 }
